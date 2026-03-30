@@ -1,10 +1,10 @@
-# 💳 Credit Risk Intelligence — Lending Club
+# Credit Risk Intelligence — Lending Club
 
 > Dự đoán xác suất vỡ nợ (PD) và tối ưu hóa danh mục cho vay
 
 ---
 
-## 📌 Tổng quan
+## 1. Tổng quan
 
 Dự án xây dựng hệ thống đánh giá rủi ro tín dụng cho dữ liệu Lending Club, bao gồm:
 
