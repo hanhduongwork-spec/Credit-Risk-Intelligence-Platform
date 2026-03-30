@@ -13,6 +13,38 @@ Dự án xây dựng hệ thống đánh giá rủi ro tín dụng cho dữ li�
 - **4 kịch bản tối ưu hóa** phục vụ ra quyết định kinh doanh
 - **Dashboard Streamlit** trực quan hóa toàn bộ kết quả
 
+## 2. Lending Club
+LendingClub is an American fintech company operating in the online consumer lending sector. Initially, the company operated under a peer-to-peer (P2P) lending model—directly connecting borrowers with investors through a digital platform.
+
+Over time, LendingClub evolved into a hybrid lending platform (combining a marketplace with a balance sheet model), in which the company simultaneously:
+
+Connects investors with borrowers.
+
+Directly participates in the credit extension process.
+
+The core of LendingClub’s operations is not merely "lending," but rather:
+
+Data-driven credit decisioning.
+
+## 3. Dataset Lending Club
+### 3.1 Required data overview
+Nhóm dữ liệu
+Mục đích
+Ý nghĩa business
+Customer profile & credit data
+Dự báo rủi ro (PD)
+Xác định khả năng vỡ nợ
+Loan decision data
+Hiểu & tối ưu policy
+Quyết định lãi suất và hạn mức
+Loan outcome data
+Huấn luyện & đánh giá
+Biết khoản vay có vỡ nợ hay không
+Time & location data
+Bổ trợ phân tích
+Bắt xu hướng theo thời gian & khu vực
+
+
 ---
 
 ## 🗂️ Cấu trúc dự án
