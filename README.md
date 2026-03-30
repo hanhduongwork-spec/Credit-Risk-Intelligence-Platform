@@ -1,8 +1,6 @@
 # 💳 Credit Risk Intelligence — Lending Club
 
-> Dự đoán xác suất vỡ nợ (PD) và tối ưu hóa danh mục cho vay bằng Machine Learning.
-
-**FTU Business Analytics · LightGBM + Optuna · Monte Carlo Simulation**
+> Dự đoán xác suất vỡ nợ (PD) và tối ưu hóa danh mục cho vay
 
 ---
 
@@ -110,4 +108,4 @@ lending_club_loan_cleaned.csv
 
 ---
 
-*FTU Business Analytics · Credit Risk Modeling*
+*Group 1 K62DB · Credit Risk Modeling*
