@@ -1,4 +1,4 @@
-# Credit Risk Intelligence — Lending Club
+# Credit Risk Intelligence - Lending Club
 
 > Predicting Probability of Default (PD) and Lending Portfolio Optimization
 
