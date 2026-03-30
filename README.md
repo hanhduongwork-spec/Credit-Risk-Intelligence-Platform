@@ -1,17 +1,17 @@
 # Credit Risk Intelligence — Lending Club
 
-> Dự đoán xác suất vỡ nợ (PD) và tối ưu hóa danh mục cho vay
+> Predicting Probability of Default (PD) and Lending Portfolio Optimization
 
 ---
 
-## 1. Tổng quan
+## 1. Overview
 
-Dự án xây dựng hệ thống đánh giá rủi ro tín dụng cho dữ liệu Lending Club, bao gồm:
+This project develops a credit risk assessment system using LendingClub data, featuring:
 
-- **Mô hình dự đoán PD** sử dụng LightGBM + Optuna fine-tuning
-- **Hiệu chuẩn xác suất** (Platt Scaling) để PD output đáng tin cậy
-- **4 kịch bản tối ưu hóa** phục vụ ra quyết định kinh doanh
-- **Dashboard Streamlit** trực quan hóa toàn bộ kết quả
+- **PD Prediction Model:** Built with LightGBM and fine-tuned using Optuna.
+- **Probability Calibration:** Utilizing Platt Scaling to ensure the PD outputs are reliable and reflect real-world default frequencies.
+- **4 Optimization Scenarios:** Designed to support strategic business decision-making.
+- **Streamlit Dashboard:** Providing full visualization of all results and model performance.
 
 ## 2. Lending Club
 LendingClub is an American fintech company operating in the online consumer lending sector. Initially, the company operated under a peer-to-peer (P2P) lending model—directly connecting borrowers with investors through a digital platform.
