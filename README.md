@@ -92,7 +92,7 @@ python pipeline.py
 
 ### 4.3. Chạy Streamlit app
 ```bash
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 ---
