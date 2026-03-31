@@ -117,9 +117,9 @@ lending_club_loan_cleaned.csv
 
 ---
 
-## 6. Kết quả mô hình
+## 6. Model Result
 
-| Metric | Giá trị |
+| Metric | Value |
 |--------|---------|
 | AUC-ROC | **0.7169** |
 | KS Statistic | 0.3190 |
@@ -129,20 +129,20 @@ lending_club_loan_cleaned.csv
 
 ## 7. Summary of scenario
 
-| # | Câu hỏi kinh doanh | Phương pháp |
+| # | Business Question | Method |
 |---|---|---|
-| **KB1** | Nên chào lãi suất bao nhiêu cho khách X? | Monte Carlo + Grid Search |
-| **KB2** | Lãi suất tối thiểu cho từng sub_grade? | Analytical Profit Function |
-| **KB3** | Từ chối khoản vay PD > bao nhiêu? | Profit/Loan Ratio Optimization |
-| **KB4** | Phân bổ vốn vào sub_grade nào? | Greedy Risk/Return Allocation |
+| **KB1** | What interest rate should I offer to client X? | Monte Carlo + Grid Search |
+| **KB2** | What is the minimum interest rate for each sub-grade? | Analytical Profit Function |
+| **KB3** | What percentage of PD loans were rejected? | Profit/Loan Ratio Optimization |
+| **KB4** | Which subgrade should the capital be allocated to? | Greedy Risk/Return Allocation |
 
 ---
 
 ## ⚠️ NOTE
 
-- `lending_club_loan_cleaned.csv` phải nằm cùng thư mục với `pipeline.py`
-- Chạy `pipeline.py` trước để tạo `models/` và `data/` trước khi chạy app
-- Raw data (`lending_club_loan.csv`) tải từ [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+- `lending_club_loan_cleaned.csv` have to be in the same folder with `pipeline.py`
+- Chạy `pipeline.py` trước để tạo `models/` và `data/` before running app
+- Raw data (`lending_club_loan.csv`) download from [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 
 ---
 
