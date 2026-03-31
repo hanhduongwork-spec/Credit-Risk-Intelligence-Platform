@@ -58,39 +58,39 @@ The group addresses the challenge of allocating limited capital across different
 ```
 credit-risk-lending-club/
 ├── app.py                              # Streamlit dashboard
-├── pipeline.py                         # Pipeline huấn luyện
+├── pipeline.py                         # Pipeline training
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
 ├── lending_club_loan_cleaned.csv       # Data đã preprocessing
 ├── data/
-│   ├── result_with_pd.csv              # PD + E[Profit] toàn danh mục
+│   ├── result_with_pd.csv              # PD + E[Profit] all portfolio
 │   ├── kb2_pricing.csv                 # KB2: Pricing policy
 │   ├── kb3_optimization.csv            # KB3: Approval threshold
 │   └── kb4_allocation.csv              # KB4: Capital allocation
 └── models/
     ├── final_model.pkl                 # LightGBM đã fine-tune
-    ├── cal_model.pkl                   # Model đã hiệu chuẩn (Platt)
-    └── selected_features.pkl           # Danh sách features
+    ├── cal_model.pkl                   # Platt-Calibrated Model
+    └── selected_features.pkl           # Features list
 ```
 
 ---
 
 ## 4. How to run
 
-### 4.1. Clone repo & cài thư viện
+### 4.1. Clone repo & install libraries 
 ```bash
 git clone https://github.com/<username>/credit-risk-lending-club.git
 cd credit-risk-lending-club
 pip install -r requirements.txt
 ```
 
-### 4.2. Chạy pipeline (tạo model + artifacts)
+### 4.2. Run pipeline (tạo model + artifacts)
 ```bash
 python pipeline.py
 ```
 
-### 4.3. Chạy Streamlit app
+### 4.3. Run Streamlit app
 ```bash
 py -m streamlit run app.py
 ```
