@@ -62,14 +62,14 @@ credit-risk-lending-club/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── lending_club_loan_cleaned.csv       # Data đã preprocessing
+├── lending_club_loan_cleaned.csv       # Data preprocessing
 ├── data/
 │   ├── result_with_pd.csv              # PD + E[Profit] all portfolio
 │   ├── kb2_pricing.csv                 # KB2: Pricing policy
 │   ├── kb3_optimization.csv            # KB3: Approval threshold
 │   └── kb4_allocation.csv              # KB4: Capital allocation
 └── models/
-    ├── final_model.pkl                 # LightGBM đã fine-tune
+    ├── final_model.pkl                 # LightGBM fine-tuned
     ├── cal_model.pkl                   # Platt-Calibrated Model
     └── selected_features.pkl           # Features list
 ```
