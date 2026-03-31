@@ -142,7 +142,7 @@ lending_club_loan_cleaned.csv
 
 - `lending_club_loan_cleaned.csv` have to be in the same folder with `pipeline.py`
 - Chạy `pipeline.py` trước để tạo `models/` và `data/` before running app
-- Raw data (`lending_club_loan.csv`) download from [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+- Raw data (`lending_club_loan.csv`) download from [Kaggle](https://www.kaggle.com/datasets/jeandedieunyandwi/lending-club-dataset)
 
 ---
 
